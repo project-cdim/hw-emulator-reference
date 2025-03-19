@@ -1,0 +1,10 @@
+{
+  "MODE": "Local",
+  "HTTPS": "Disable",
+  "TRAYS": [],
+  "POPULATE": "../simulatorDeviceList.json",
+  "DEVICE_SPEC": true,
+  "SPEC": "Redfish",
+  "MOCKUPFOLDERS": [ "Redfish" ],
+  "POWER_LINK": true
+}
