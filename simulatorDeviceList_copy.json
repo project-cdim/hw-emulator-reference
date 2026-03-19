@@ -1,105 +1,105 @@
 {
   "cpu": [
     {
-      "deviceID": "0001",
+      "deviceID": "000001",
       "model": "Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz",
       "manufacturer": "GenuineIntel",
       "serialNumber": "PROCESSOR1",
       "link": [
         {
-          "deviceID": "1001"
+          "deviceID": "100001"
         },
         {
-          "deviceID": "1002"
+          "deviceID": "100002"
         },
         {
-          "deviceID": "2001"
+          "deviceID": "200001"
         },
         {
-          "deviceID": "3001"
+          "deviceID": "300001"
         },
         {
-          "deviceID": "5001"
+          "deviceID": "500001"
         },
         {
-          "deviceID": "6001"
+          "deviceID": "600001"
         }
       ]
     },
     {
-      "deviceID": "0002",
+      "deviceID": "000002",
       "model": "Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz",
       "manufacturer": "GenuineIntel",
       "serialNumber": "PROCESSOR2",
       "link": [
         {
-          "deviceID": "1003"
+          "deviceID": "100003"
         },
         {
-          "deviceID": "1004"
+          "deviceID": "100004"
         },
         {
-          "deviceID": "2002"
+          "deviceID": "200002"
         },
         {
-          "deviceID": "3002"
+          "deviceID": "300002"
         }
       ]
     },
     {
-      "deviceID": "0003",
+      "deviceID": "000003",
       "model": "Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz",
       "manufacturer": "GenuineIntel",
       "serialNumber": "PROCESSOR3",
       "link": [
         {
-          "deviceID": "1005"
+          "deviceID": "100005"
         },
         {
-          "deviceID": "1006"
+          "deviceID": "100006"
         },
         {
-          "deviceID": "2003"
+          "deviceID": "200003"
         },
         {
-          "deviceID": "3003"
+          "deviceID": "300003"
         }
       ]
     }
   ],
   "memory": [
     {
-      "deviceID": "1001",
+      "deviceID": "100001",
       "size": 1073741824,
       "model": "mem_1"
     },
     {
-      "deviceID": "1002",
+      "deviceID": "100002",
       "size": 1073741824,
       "model": "mem_2"
     },
     {
-      "deviceID": "1003",
+      "deviceID": "100003",
       "size": 1073741824,
       "model": "mem_3"
     },
     {
-      "deviceID": "1004",
+      "deviceID": "100004",
       "size": 1073741824,
       "model": "mem_4"
     },
     {
-      "deviceID": "1005",
+      "deviceID": "100005",
       "size": 1073741824,
       "model": "mem_5"
     },
     {
-      "deviceID": "1006",
+      "deviceID": "100006",
       "size": 1073741824,
       "model": "mem_6"
     },
     {
-      "deviceID": "1501",
+      "deviceID": "150001",
       "PCIeVendorID": "8086",
       "PCIeDeviceID": "0d93",
       "PCIeDeviceSerialNumber": "1000000000000000",
@@ -107,7 +107,7 @@
       "model": "mem_1"
     },
     {
-      "deviceID": "1502",
+      "deviceID": "150002",
       "PCIeVendorID": "8086",
       "PCIeDeviceID": "0d93",
       "PCIeDeviceSerialNumber": "2000000000000000",
@@ -115,7 +115,7 @@
       "model": "mem_2"
     },
     {
-      "deviceID": "1503",
+      "deviceID": "150003",
       "PCIeVendorID": "8086",
       "PCIeDeviceID": "0d93",
       "PCIeDeviceSerialNumber": "3000000000000000",
@@ -123,7 +123,7 @@
       "model": "mem_3"
     },
     {
-      "deviceID": "1504",
+      "deviceID": "150004",
       "PCIeVendorID": "8086",
       "PCIeDeviceID": "0d93",
       "PCIeDeviceSerialNumber": "4000000000000000",
@@ -131,7 +131,7 @@
       "model": "mem_4"
     },
     {
-      "deviceID": "1505",
+      "deviceID": "150005",
       "PCIeVendorID": "8086",
       "PCIeDeviceID": "0d93",
       "PCIeDeviceSerialNumber": "5000000000000000",
@@ -139,7 +139,7 @@
       "model": "mem_5"
     },
     {
-      "deviceID": "1506",
+      "deviceID": "150006",
       "PCIeVendorID": "8086",
       "PCIeDeviceID": "0d93",
       "PCIeDeviceSerialNumber": "6000000000000000",
@@ -149,7 +149,7 @@
   ],
   "storage": [
     {
-      "deviceID": "2001",
+      "deviceID": "200001",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737431",
@@ -157,7 +157,7 @@
       "model": "stg_1"
     },
     {
-      "deviceID": "2002",
+      "deviceID": "200002",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737432",
@@ -165,7 +165,7 @@
       "model": "stg_2"
     },
     {
-      "deviceID": "2003",
+      "deviceID": "200003",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737433",
@@ -173,7 +173,7 @@
       "model": "stg_3"
     },
     {
-      "deviceID": "2501",
+      "deviceID": "250001",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737451",
@@ -181,7 +181,7 @@
       "model": "stg_1"
     },
     {
-      "deviceID": "2502",
+      "deviceID": "250002",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737452",
@@ -189,7 +189,7 @@
       "model": "stg_2"
     },
     {
-      "deviceID": "2503",
+      "deviceID": "250003",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737453",
@@ -197,7 +197,7 @@
       "model": "stg_3"
     },
     {
-      "deviceID": "2504",
+      "deviceID": "250004",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737454",
@@ -205,7 +205,7 @@
       "model": "stg_4"
     },
     {
-      "deviceID": "2505",
+      "deviceID": "250005",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737455",
@@ -213,7 +213,7 @@
       "model": "stg_5"
     },
     {
-      "deviceID": "2506",
+      "deviceID": "250006",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1042",
       "PCIeDeviceSerialNumber": "6f732d7465737456",
@@ -223,7 +223,7 @@
   ],
   "networkInterface": [
     {
-      "deviceID": "3001",
+      "deviceID": "300001",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff0054522436b1fe",
@@ -231,7 +231,7 @@
       "model": "nic_1"
     },
     {
-      "deviceID": "3002",
+      "deviceID": "300002",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff005452e640e9fe",
@@ -239,7 +239,7 @@
       "model": "nic_2"
     },
     {
-      "deviceID": "3003",
+      "deviceID": "300003",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff005452e928a6fe",
@@ -247,7 +247,7 @@
       "model": "nic_3"
     },
     {
-      "deviceID": "3501",
+      "deviceID": "350001",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff0054525f961cfe",
@@ -255,7 +255,7 @@
       "model": "nic_1"
     },
     {
-      "deviceID": "3502",
+      "deviceID": "350002",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff005452badfacfe",
@@ -263,7 +263,7 @@
       "model": "nic_2"
     },
     {
-      "deviceID": "3503",
+      "deviceID": "350003",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff00545221e2edfe",
@@ -271,7 +271,7 @@
       "model": "nic_3"
     },
     {
-      "deviceID": "3504",
+      "deviceID": "350004",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff00545284cdc3fe",
@@ -279,7 +279,7 @@
       "model": "nic_4"
     },
     {
-      "deviceID": "3505",
+      "deviceID": "350005",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff005452108a5ffe",
@@ -287,7 +287,7 @@
       "model": "nic_5"
     },
     {
-      "deviceID": "3506",
+      "deviceID": "350006",
       "PCIeVendorID": "1af4",
       "PCIeDeviceID": "1041",
       "PCIeDeviceSerialNumber": "ff005452601710fe",
@@ -297,7 +297,7 @@
   ],
   "switch": [
     {
-      "deviceID": "4001",
+      "deviceID": "400001",
       "manufacturer": "NEC",
       "model": "QEMU",
       "serialNumber": "switch1"
@@ -305,25 +305,25 @@
   ],
   "gpu": [
     {
-      "deviceID": "5001",
+      "deviceID": "500001",
       "model": "gpu_1"
     },
     {
-      "deviceID": "5501",
+      "deviceID": "550001",
       "PCIeVendorID": "1bcf",
       "PCIeDeviceID": "001c",
       "PCIeDeviceSerialNumber": "deadbeef1badcafe",
       "model": "gpu_1"
     },
     {
-      "deviceID": "5502",
+      "deviceID": "550002",
       "PCIeVendorID": "1bcf",
       "PCIeDeviceID": "001c",
       "PCIeDeviceSerialNumber": "deadbeef2badcafe",
       "model": "gpu_2"
     },
     {
-      "deviceID": "5503",
+      "deviceID": "550003",
       "PCIeVendorID": "1bcf",
       "PCIeDeviceID": "001c",
       "PCIeDeviceSerialNumber": "deadbeef3badcafe",
@@ -332,7 +332,7 @@
   ],
   "graphicController": [
     {
-      "deviceID": "6001",
+      "deviceID": "600001",
       "model": "gra_1"
     }
   ]

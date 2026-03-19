@@ -245,7 +245,8 @@ Example of writing the configuration file
 ■ NIC
 | Parameter | Target Schema | Target Property Name | Description |
 |:--|:--|:--|:--|
-| bitRate | SerialInterface | BitRate | Size of this volume in bytes |
+| bitRate | SerialInterface | BitRate | Rate of data flow (bit/s) (used to calculate metrics) |
+| maxSpeedGbps | Port | MaxSpeedGbps | Maximum speed of the port (Gbit/s) |
 | state | NetworkAdapter | Status.State | Resource State |
 | health | NetworkAdapter | Status.Health | Health state of the resource |
 | sensingInterval | Sensor | SensingInterval | Time interval (seconds) between sensor readings |
@@ -456,12 +457,17 @@ The device types capable of load state operations are as follows.
 ### Supported Devices
 | Device Type | deviceType | Device ID |
 |:--|:--|:--|
-| CPU | CPU | 0001～0010 |
-| GPU | GPU | Built-in GPU：5001～5010<br>External GPU：5501～5510 |
-| Memory | memory | Built-in Memory：1001～1010<br>External Memory：1501～1510 |
-| Storage | storage | Built-in Storage：2001～2010<br>External Storage：2501～2510 |
-| NIC | networkInterface | Built-in NIC：3001～3010<br>External NIC：3501～3510 |
-| Graphic Controller | graphicController | 6001～ |
+| CPU | CPU | 000001～000010 |
+| GPU | GPU | Built-in GPU：500001～500010<br>External GPU：550001～550010 |
+| Memory | memory | Built-in Memory：100001～100010<br>External Memory：150001～150010 |
+| Storage | storage | Built-in Storage：200001～200010<br>External Storage：250001～250010 |
+| NIC | networkInterface | Built-in NIC：300001～300010<br>External NIC：350001～350010 |
+| Graphic Controller | graphicController | 600001～ |
+
+* The first byte from the left in the Device ID is assigned to the device type.  
+* The second byte from the left in the Device ID indicates the device location: "0" means a built-in device, and any other value means an external device.  
+* The third byte from the left and onwards in the Device ID are assigned as a consecutive device number (the lower 4 digits).  
+  * The current maximum value has been changed to 9999. 
 
 ## File List
 ※ Only major files are listed

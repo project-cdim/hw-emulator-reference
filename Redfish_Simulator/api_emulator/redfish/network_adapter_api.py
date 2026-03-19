@@ -1,5 +1,5 @@
 # Copyright Notice:
-# Copyright 2025 NEC Corporation All rights reserved.
+# Copyright 2025-2026 NEC Corporation All rights reserved.
 # License: BSD 3-Clause License. For full text see link: https://github.com/project-cdim/hw-emulator-reference/LICENSE
 
 
@@ -15,7 +15,6 @@ from flask_restful import Resource
 from .templates.NetworkAdapter import format_NetworkAdapter_template
 from .network_adapter_metrics_api import create_network_adapter_metrics
 from .environment_metrics_api import create_environment_metrics
-from .serial_interface_api import set_connect_nic_id
 from .Chassis_api import ChassisCollectionAPI
 from .metrics_state_api import set_metric_state
 
@@ -44,8 +43,6 @@ class NetworkAdapterAPI(Resource):
 
         target = "-"
         idx = ident2.split(target)
-        nic_id = idx[-1]
-        set_connect_nic_id(nic_id)
         return members[ident1][ident2], 200
 
 

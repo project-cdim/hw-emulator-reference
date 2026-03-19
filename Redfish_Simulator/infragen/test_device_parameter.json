@@ -1,5 +1,5 @@
 {
-  "0001": {
+  "000001": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 4,
@@ -10,7 +10,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0002": {
+  "000002": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 4,
@@ -21,7 +21,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0003": {
+  "000003": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 8,
@@ -32,7 +32,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0004": {
+  "000004": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 8,
@@ -43,7 +43,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0005": {
+  "000005": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 8,
@@ -54,7 +54,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0006": {
+  "000006": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 4,
@@ -65,7 +65,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0007": {
+  "000007": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 8,
@@ -76,7 +76,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0008": {
+  "000008": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 8,
@@ -87,7 +87,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0009": {
+  "000009": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 4,
@@ -98,7 +98,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0010": {
+  "000010": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 4,
@@ -109,7 +109,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0011": {
+  "000011": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 4,
@@ -120,7 +120,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0012": {
+  "000012": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 2,
@@ -131,7 +131,7 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "0013": {
+  "000013": {
     "state": "Enabled",
     "health": "OK",
     "totalEnabledCores": 2,
@@ -142,210 +142,210 @@
     "processorArchitecture": "x86",
     "sensingInterval": "PT3S"
   },
-  "1001": {
+  "100001": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1002": {
+  "100002": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1003": {
+  "100003": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1004": {
+  "100004": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1005": {
+  "100005": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1006": {
+  "100006": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1007": {
+  "100007": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1008": {
+  "100008": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1009": {
+  "100009": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1010": {
+  "100010": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1011": {
+  "100011": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1012": {
+  "100012": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 2048,
     "operatingSpeedMHz": 2800,
     "sensingInterval": "PT3S"
   },
-  "1013": {
+  "100013": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 2048,
     "operatingSpeedMHz": 2800,
     "sensingInterval": "PT3S"
   },
-  "1014": {
+  "100014": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 2048,
     "operatingSpeedMHz": 2800,
     "sensingInterval": "PT3S"
   },
-  "1015": {
+  "100015": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 2048,
     "operatingSpeedMHz": 2800,
     "sensingInterval": "PT3S"
   },
-  "1016": {
+  "100016": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 2048,
     "operatingSpeedMHz": 2800,
     "sensingInterval": "PT3S"
   },
-  "1501": {
+  "150001": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1502": {
+  "150002": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1503": {
+  "150003": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1504": {
+  "150004": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1505": {
+  "150005": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1506": {
+  "150006": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1507": {
+  "150007": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1508": {
+  "150008": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 8192,
     "operatingSpeedMHz": 3600,
     "sensingInterval": "PT3S"
   },
-  "1509": {
+  "150009": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1510": {
+  "150010": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1511": {
+  "150011": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 4096,
     "operatingSpeedMHz": 3200,
     "sensingInterval": "PT3S"
   },
-  "1512": {
+  "150012": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 2048,
     "operatingSpeedMHz": 2800,
     "sensingInterval": "PT3S"
   },
-  "1513": {
+  "150013": {
     "state": "Enabled",
     "health": "OK",
     "capacityMiB": 2048,
     "operatingSpeedMHz": 2800,
     "sensingInterval": "PT3S"
   },
-  "2001": {
+  "200001": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -353,7 +353,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2002": {
+  "200002": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -361,7 +361,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2003": {
+  "200003": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -369,7 +369,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2004": {
+  "200004": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -377,7 +377,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2005": {
+  "200005": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -385,7 +385,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2006": {
+  "200006": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -393,7 +393,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2007": {
+  "200007": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -401,7 +401,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2008": {
+  "200008": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -409,7 +409,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2009": {
+  "200009": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -417,7 +417,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2010": {
+  "200010": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -425,7 +425,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2011": {
+  "200011": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -433,7 +433,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2012": {
+  "200012": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 2048,
@@ -441,7 +441,7 @@
     "driveCapacityBytes": 2048,
     "sensingInterval": "PT3S"
   },
-  "2013": {
+  "200013": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 2048,
@@ -449,7 +449,7 @@
     "driveCapacityBytes": 2048,
     "sensingInterval": "PT3S"
   },
-  "2501": {
+  "250001": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -457,7 +457,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2502": {
+  "250002": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -465,7 +465,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2503": {
+  "250003": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -473,7 +473,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2504": {
+  "250004": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -481,7 +481,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2505": {
+  "250005": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -489,7 +489,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2506": {
+  "250006": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -497,7 +497,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2507": {
+  "250007": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -505,7 +505,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2508": {
+  "250008": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 8192,
@@ -513,7 +513,7 @@
     "driveCapacityBytes": 8192,
     "sensingInterval": "PT3S"
   },
-  "2509": {
+  "250009": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -521,7 +521,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2510": {
+  "250010": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -529,7 +529,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2511": {
+  "250011": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 4096,
@@ -537,7 +537,7 @@
     "driveCapacityBytes": 4096,
     "sensingInterval": "PT3S"
   },
-  "2512": {
+  "250012": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 2048,
@@ -545,7 +545,7 @@
     "driveCapacityBytes": 2048,
     "sensingInterval": "PT3S"
   },
-  "2513": {
+  "250013": {
     "state": "Enabled",
     "health": "OK",
     "volumeCapacityBytes": 2048,
@@ -553,193 +553,195 @@
     "driveCapacityBytes": 2048,
     "sensingInterval": "PT3S"
   },
-  "3001": {
+  "300001": {
+    "state": "Enabled",
+    "health": "OK",
+    "bitRate": "9600",
+    "maxSpeedGbps": 5,
+    "sensingInterval": "PT3S"
+  },
+  "300002": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3002": {
-    "state": "Enabled",
-    "health": "OK",
-    "bitRate": "9600",
-    "sensingInterval": "PT3S"
-  },
-  "3003": {
+  "300003": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3004": {
+  "300004": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3005": {
+  "300005": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3006": {
+  "300006": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3007": {
+  "300007": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3008": {
+  "300008": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3009": {
+  "300009": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3010": {
+  "300010": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3011": {
+  "300011": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3012": {
+  "300012": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "4800",
     "sensingInterval": "PT3S"
   },
-  "3013": {
+  "300013": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "4800",
     "sensingInterval": "PT3S"
   },
-  "3501": {
+  "350001": {
+    "state": "Enabled",
+    "health": "OK",
+    "bitRate": "9600",
+    "maxSpeedGbps": 10,
+    "sensingInterval": "PT3S"
+  },
+  "350002": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3502": {
-    "state": "Enabled",
-    "health": "OK",
-    "bitRate": "9600",
-    "sensingInterval": "PT3S"
-  },
-  "3503": {
+  "350003": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3504": {
+  "350004": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3505": {
+  "350005": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3506": {
+  "350006": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3507": {
+  "350007": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3508": {
+  "350008": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "19200",
     "sensingInterval": "PT3S"
   },
-  "3509": {
+  "350009": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3510": {
+  "350010": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3511": {
+  "350011": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "9600",
     "sensingInterval": "PT3S"
   },
-  "3512": {
+  "350012": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "4800",
     "sensingInterval": "PT3S"
   },
-  "3513": {
+  "350013": {
     "state": "Enabled",
     "health": "OK",
     "bitRate": "4800",
     "sensingInterval": "PT3S"
   },
-  "5001": {
+  "500001": {
     "state": "Enabled",
     "health": "OK",
     "manufacturer": "Intel(R) Corporation",
     "sensingInterval": "PT3S"
   },
-  "5002": {
+  "500002": {
     "state": "Enabled",
     "health": "OK",
     "manufacturer": "Intel(R) Corporation",
     "sensingInterval": "PT3S"
   },
-  "5003": {
+  "500003": {
     "state": "Enabled",
     "health": "OK",
     "manufacturer": "Intel(R) Corporation",
     "sensingInterval": "PT3S"
   },
-  "5004": {
+  "500004": {
     "state": "Enabled",
     "health": "OK",
     "manufacturer": "Intel(R) Corporation",
     "sensingInterval": "PT3S"
   },
-  "5501": {
+  "550001": {
     "state": "Enabled",
     "health": "OK",
     "manufacturer": "Intel(R) Corporation",
     "sensingInterval": "PT3S"
   },
-  "6001": {
+  "600001": {
     "state": "Enabled",
     "health": "OK"
   }

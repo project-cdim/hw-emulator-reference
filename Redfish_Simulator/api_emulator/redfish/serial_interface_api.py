@@ -1,5 +1,5 @@
 # Copyright Notice:
-# Copyright 2025 NEC Corporation All rights reserved.
+# Copyright 2025-2026 NEC Corporation All rights reserved.
 # License: BSD 3-Clause License. For full text see link: https://github.com/project-cdim/hw-emulator-reference/LICENSE
 
 
@@ -9,18 +9,13 @@
 """
 
 import logging
-import copy
-import json
-import os
 from flask_restful import Resource
 
 from .templates.SerialInterface import format_SerialInterfaces_template
 
 members = {}
-NIC = "3001"
 
 INTERNAL_ERROR = 500
-DEVICE_PARAM = "infragen/test_device_parameter.json"
 
 config = {}
 
@@ -39,22 +34,7 @@ class SerialInterfaceAPI(Resource):
             return "not found", 404
         if ident2 not in members[ident1]:
             return "not found", 404
-        mem = copy.deepcopy(members[ident1][ident2])
-
-        file_path = os.getcwd()
-        file_path += os.sep + DEVICE_PARAM
-
-        parameter = None
-
-        if os.path.isfile(file_path):
-            with open(file_path, encoding="utf-8") as open_file:
-                parameter = json.load(open_file)
-
-            if parameter.get(NIC):
-                dev_param = parameter[NIC]["bitRate"]
-                mem["BitRate"] = dev_param
-
-        return mem, 200
+        return members[ident1][ident2], 200
 
 
 class SerialInterfaceCollectionAPI(Resource):
@@ -98,9 +78,3 @@ def create_serial_interface(**kwargs):
     if manager_id not in members:
         members[manager_id] = {}
     members[manager_id][si_id] = format_SerialInterfaces_template(**kwargs)
-
-
-def set_connect_nic_id(nic_id):
-    """Connect SerialInterface"""
-    global NIC  # pylint: disable=W0603
-    NIC = nic_id

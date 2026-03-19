@@ -4,7 +4,7 @@
 #
 # The original DMTF contents of this file have been modified to support
 # The Redfish Interface Emulator. These modifications are subject to the following:
-# Copyright 2025 NEC Corporation
+# Copyright 2025-2026 NEC Corporation
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -522,7 +522,7 @@ def d_populate(cfg, power_link):
                                     dev_param['sensingInterval'] = "PT3S"
 
                                 create_network_interface(rb=g.rest_base, suffix='Systems', ni_id=ni_id, na_id=nic_id, suffix_id=compSys, chassis_id=chassis)
-                                create_port(rb=g.rest_base, suffix='Chassis', adapter='NetworkAdapters', adapter_id=nic_id, port_id=port_id, suffix_id=chassis, chassis_id=chassis)
+                                create_port(rb=g.rest_base, suffix='Chassis', adapter='NetworkAdapters', adapter_id=nic_id, port_id=port_id, suffix_id=chassis, chassis_id=chassis, dev_param=dev_param)
                                 portNAList.append(port_id)
                                 create_network_device_function(rb=g.rest_base, suffix='Chassis', na_id=nic_id, ndf_id=ndf_id, suffix_id=compSys, chassis_id=chassis, portNAList=portNAList, pcie_f_id=pcie_f_id, mac=nic_template.get('mac'))
                                 ndfList.append(ndf_id)
@@ -746,7 +746,7 @@ def d_populate(cfg, power_link):
                     dev_param['health'] = "OK"
                     dev_param['sensingInterval'] = "PT3S"
 
-                create_port(rb=g.rest_base, suffix='Chassis', adapter='NetworkAdapters',adapter_id=nic_id,neta_sereal=neta_sereal,port_id=port_id,suffix_id=chassis, chassis_id=chassis)
+                create_port(rb=g.rest_base, suffix='Chassis', adapter='NetworkAdapters',adapter_id=nic_id,neta_sereal=neta_sereal,port_id=port_id,suffix_id=chassis, chassis_id=chassis, dev_param=dev_param)
                 portNAList.append(port_id)
                 create_network_device_function(rb=g.rest_base, suffix='Chassis', na_id=nic_id,ndf_id=ndf_id,suffix_id=chassis, chassis_id=chassis,portNAList=portNAList,pcie_f_id=pcie_f_id,mac=nic_template.get('mac'))
                 ndfList.append(ndf_id)

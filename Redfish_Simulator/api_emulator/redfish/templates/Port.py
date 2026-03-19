@@ -1,5 +1,5 @@
 # Copyright Notice:
-# Copyright 2025 NEC Corporation All rights reserved.
+# Copyright 2025-2026 NEC Corporation All rights reserved.
 # License: BSD 3-Clause License. For full text see link: https://github.com/project-cdim/hw-emulator-reference/LICENSE
 
 
@@ -67,4 +67,10 @@ def format_Port_template(**kwargs):
         )
     else:
         c["@odata.id"] = c["@odata.id"].format(**kwargs)
+
+    if dev_param := kwargs.get("dev_param"):
+        for src_key, dst_key in (("maxSpeedGbps", "MaxSpeedGbps"),):
+            if (value := dev_param.get(src_key)) is not None:
+                c[dst_key] = value
+
     return c
